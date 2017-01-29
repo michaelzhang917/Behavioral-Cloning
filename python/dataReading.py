@@ -32,16 +32,16 @@ def augment_image(image, angle):
 
     return image, angle
 
-dataFolderPrefix = './'
+dataFolderPrefix = '../'
 Folder = 'data/'
 Filename = 'driving_log.csv'
 drivingLogFile = dataFolderPrefix + Folder + Filename
-offset = 0.4
+offset = 0.2
 data = pd.read_csv(drivingLogFile, header=0,
                    names=['center', 'left', 'right', 'angle', 'throttle', 'break', 'speed'])
 
-ROWS = 160
-COLS = 320
+ROWS = 100
+COLS = 100
 speed_all = data.speed.values
 X_all = []
 y_all = []
@@ -78,5 +78,5 @@ for i in range(len(speed_all)):
     print(imageFileName)
 
 data = {"feature": X_all, "label": y_all}
-with open('./preprocessedData/data' + str(ROWS) + 'x' + str(COLS) + '.p', 'wb') as f:
+with open('../preprocessedData/dataOFFSET=0.2' + str(ROWS) + 'x' + str(COLS) + '.p', 'wb') as f:
     pickle.dump(data, f)
