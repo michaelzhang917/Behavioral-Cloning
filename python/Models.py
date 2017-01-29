@@ -1,6 +1,7 @@
 from keras.models import load_model, Sequential
 from keras.layers import Input, Dropout, Flatten, Convolution2D, MaxPooling2D, BatchNormalization, Dense, Lambda
 from keras.applications.vgg16 import  VGG16
+
 def get_nvidia_model(ROWS, COLS, CHANNELS, load):
     """Define hyperparameters and compile model"""
     if load: return load_model('../models/nvidia/model.h5')

@@ -8,7 +8,7 @@ import numpy as np
 import random, json
 from keras import backend as K
 from keras.preprocessing.image import img_to_array, load_img
-import cv2
+from keras import optimizers
 
 ROWS = 160
 COLS = 320
