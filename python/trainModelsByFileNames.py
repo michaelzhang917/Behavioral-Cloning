@@ -13,7 +13,9 @@ from keras import optimizers
 ROWS = 160
 COLS = 320
 transRange = 100
-newSize = (64, 64)
+newRow = 64
+newCol = 64
+newSize = (newCol, newRow)
 CHANNELS = 3
 modelName = 'nvidia'
 load = False
