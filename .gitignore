@@ -1,0 +1,13 @@
+data
+Data*
+__pycache__
+data*
+Default*
+models*
+preprocessedData
+Dominique*
+*.py
+*.py~
+.idea
+.gitignore.swp
+.idea/Behavioral-Cloning.iml
