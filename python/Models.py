@@ -1,18 +1,17 @@
 from keras.models import load_model, Sequential
-from keras.layers import Input, Dropout, Flatten, Convolution2D, MaxPooling2D, BatchNormalization, Dense
+from keras.layers import Input, Dropout, Flatten, Convolution2D, MaxPooling2D, BatchNormalization, Dense, Lambda
 from keras.applications.vgg16 import  VGG16
-from keras import optimizers
 def get_nvidia_model(ROWS, COLS, CHANNELS, load):
     """Define hyperparameters and compile model"""
-    if load: return load_model('./models/nvidia/model.h5')
+    if load: return load_model('../models/nvidia/model.h5')
     #lr = 0.0001
     weight_init='glorot_normal'
     #opt = optimizers.RMSprop(lr)
     #loss = 'mean_squared_error'
 
     model = Sequential()
-
-    model.add(BatchNormalization(mode=2, axis=1, input_shape=(ROWS, COLS, CHANNELS)))
+    model.add(Lambda(lambda x: (x / 255.0 - 0.5), input_shape=(ROWS, COLS, CHANNELS)))
+    #model.add(BatchNormalization(mode=2, axis=3, input_shape=(ROWS, COLS, CHANNELS)))
     model.add(Convolution2D(3, 3, 3, init=weight_init, border_mode='valid', activation='relu', input_shape=(ROWS, COLS, CHANNELS)))
     model.add(MaxPooling2D(pool_size=(2, 2)))
 
@@ -39,7 +38,7 @@ def get_nvidia_model(ROWS, COLS, CHANNELS, load):
 
 
 def get_vgg16_model(ROWS, COLS, CHANNELS, load):
-    if load: return load_model('./models/vgg16/model.h5')
+    if load: return load_model('../models/vgg16/model.h5')
 
     vgg16 = VGG16(include_top=False, weights='imagenet', input_tensor=None, input_shape=(ROWS, COLS, CHANNELS))
 
