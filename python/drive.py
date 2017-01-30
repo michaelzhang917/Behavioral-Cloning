@@ -19,8 +19,7 @@ from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_a
 import tensorflow as tf
 tf.python.control_flow_ops = tf
 
-ROWS = 100
-COLS = 100
+
 sio = socketio.Server()
 app = Flask(__name__)
 model = None
@@ -40,7 +39,7 @@ def telemetry(sid, data):
 
     image = Image.open(BytesIO(base64.b64decode(imgString)))
     image_array = np.asarray(image)
-    image_array = cv2.resize(image_array, (ROWS, COLS), interpolation=cv2.INTER_CUBIC)
+    image_array = cv2.resize(image_array, (COLS, ROWS), interpolation=cv2.INTER_CUBIC)
     #image_array = (image_array / 255. - .5).astype(np.float32)
     transformed_image_array = image_array[None, :, :, :]
     # This model currently assumes that the features of the model are just the images. Feel free to change this.
@@ -69,7 +68,12 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Remote Driving')
     parser.add_argument('model', type=str,
     help='Path to model definition json. Model weights should be on the same path.')
+    parser.add_argument('size', type=str,
+    help='Width and height of the input image should be same as those of traing model')
     args = parser.parse_args()
+    str = args.size.split('x')
+    ROWS = int(str[0])
+    COLS = int(str[1])
     with open(args.model, 'r') as jfile:
         # NOTE: if you saved the file by calling json.dump(model.to_json(), ...)
         # then you will have to call:

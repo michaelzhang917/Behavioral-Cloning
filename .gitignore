@@ -3,7 +3,7 @@ Data2017*
 __pycache__
 data2017*
 Default*
-models
+models/vgg
 preprocessedData
 Dominique*
 *.py~
