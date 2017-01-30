@@ -14,16 +14,16 @@ ROWS = 160
 COLS = 320
 transRange = 100
 newRow = 64
-newCol = 64
+newCol = 128
 newSize = (newCol, newRow)
 CHANNELS = 3
 modelName = 'nvidia'
 load = False
 
 if modelName is 'nvidia':
-    model = get_nvidia_model(ROWS, COLS, CHANNELS, load=load)
+    model = get_nvidia_model(newRow, newCol, CHANNELS, load=load)
 elif modelName is 'vgg16':
-    model = get_vgg16_model(ROWS, COLS, CHANNELS, load=load)
+    model = get_vgg16_model(newRow, newCol, CHANNELS, load=load)
 
 
 model.compile(loss='mse',
