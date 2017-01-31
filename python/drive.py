@@ -30,7 +30,7 @@ def telemetry(sid, data):
     # The current steering angle of the car
     steering_angle = data["steering_angle"]
     # The current throttle of the car
-    throttle = data["throttle"]
+    #throttle = data["throttle"]
     # The current speed of the car
     speed = data["speed"]
 
@@ -45,7 +45,7 @@ def telemetry(sid, data):
     # This model currently assumes that the features of the model are just the images. Feel free to change this.
     steering_angle = float(model.predict(transformed_image_array, batch_size=1))
     # The driving model currently just outputs a constant throttle. Feel free to edit this.
-    throttle = 0.2
+    #throttle = 0.2
     #print(steering_angle, throttle)
     print('steeting angle = {} throttle = {} speed = {}'.format(steering_angle, throttle, speed))
     send_control(steering_angle, throttle)
@@ -70,10 +70,13 @@ if __name__ == '__main__':
     help='Path to model definition json. Model weights should be on the same path.')
     parser.add_argument('size', type=str,
     help='Width and height of the input image should be same as those of traing model')
+    parser.add_argument('throttle', type=str,
+    help='Throttle should be greater than 0.0')
     args = parser.parse_args()
     str = args.size.split('x')
     ROWS = int(str[0])
     COLS = int(str[1])
+    throttle = float(args.throttle)
     with open(args.model, 'r') as jfile:
         # NOTE: if you saved the file by calling json.dump(model.to_json(), ...)
         # then you will have to call:

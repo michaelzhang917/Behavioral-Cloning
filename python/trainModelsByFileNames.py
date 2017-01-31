@@ -18,10 +18,11 @@ newCol = 64
 newSize = (newCol, newRow)
 CHANNELS = 3
 modelName = 'nvidia'
-load = False
+load = True
 
+prev_nb_epoch = 10
 if modelName is 'nvidia':
-    model = get_nvidia_model(newRow, newCol, CHANNELS, load=load)
+    model = get_nvidia_model(newRow, newCol, CHANNELS, load=load, filename='../models/nvidia/20170130/modelOFFSET=0.4size64x64EPOCH=' + str(prev_nb_epoch) +'.h5')
 elif modelName is 'vgg16':
     model = get_vgg16_model(newRow, newCol, CHANNELS, load=load)
 
@@ -52,15 +53,22 @@ def fit_gen(batch_size, fileNames, y):
         yield np.array(batch_X), np.array(batch_y)
 
 
-offset = 0.2
-with open('../preprocessedData/dataOFFSET=' +str(offset) + '.p', 'rb') as f:
+offset = 0.4
+#with open('../preprocessedData/dataOFFSET=' +str(offset) + '.p', 'rb') as f:
+with open('../preprocessedData/data20170130OFFSET=' +str(offset) + '.p', 'rb') as f:
     data = pickle.load(f)
 
 fileNames_all = data['fileNames']
 sa_all = data['label']
 
-nb_epoch = 5
-batch_size = 64
+with open('../preprocessedData/dataOFFSET=' +str(offset) + '.p', 'rb') as f:
+    data = pickle.load(f)
+
+fileNames_all += data['fileNames']
+sa_all += data['label']
+
+nb_epoch = 10
+batch_size = 128
 
 ### Creating Validation Data
 fileNames_train, fileNames_test, sa_train, sa_test = train_test_split(
@@ -84,7 +92,7 @@ for i in range(len(sa_test)):
 
 # Callbacks
 early_stopping = EarlyStopping(monitor='val_loss', patience=8, verbose=1, mode='auto')
-modelFile = '../models/' + modelName + '/model' + 'OFFSET=' + str(offset) + 'size' + str(newSize[0]) + 'x' + str(newSize[1])
+modelFile = '../models/' + modelName + '/20170130/model' + 'OFFSET=' + str(offset) + 'size' + str(newSize[0]) + 'x' + str(newSize[1]) + 'EPOCH=' + str(prev_nb_epoch + nb_epoch)
 save_weights = ModelCheckpoint(modelFile + '.h5', monitor='val_loss', save_best_only=True)
 
 model.fit_generator(fit_gen(batch_size, fileNames_train, sa_train),
