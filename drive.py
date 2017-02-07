@@ -11,14 +11,14 @@ import eventlet.wsgi
 from PIL import Image
 from flask import Flask
 from io import BytesIO
-
+import time
 from keras.models import load_model
 
 sio = socketio.Server()
 app = Flask(__name__)
 model = None
 prev_image_array = None
-
+start_time = time.time()
 
 @sio.on('telemetry')
 def telemetry(sid, data):
@@ -39,7 +39,11 @@ def telemetry(sid, data):
         image_array = cv2.resize(image_array, (128, 128), interpolation=cv2.INTER_CUBIC)
         steering_angle = float(model.predict(image_array[None, :, :, :], batch_size=1))
         throttle = 0.2
-        print(steering_angle, throttle)
+
+        #print(steering_angle, throttle)
+        print('steeting angle = {: 6.3f} throttle = {} '
+              'speed = {} Running {} seconds'.format(steering_angle, throttle,
+                                                                     speed, int(time.time() - start_time)))
         send_control(steering_angle, throttle)
 
         # save frame
@@ -83,7 +87,7 @@ if __name__ == '__main__':
         help='Path to image folder. This is where the images from the run will be saved.'
     )
     args = parser.parse_args()
-
+    start_time = time.time()
     model = load_model(args.model)
 
     if args.image_folder != '':

@@ -16,7 +16,7 @@ import pandas as pd
 
 
 # Nvidia model based on paper "End to End Learning for Self-Driving Cars"
-def get_nvidia_model(ROWS, COLS, CHANNELS, loadflag, filename='model.h5'):
+def get_nvidia_model(ROWS, COLS, CHANNELS, loadflag=False, filename='model.h5'):
     # option for loading the existing model
     if loadflag :
         return load_model(filename)
@@ -147,6 +147,7 @@ def fit_gen(batch_size, fileNames, y):
             batch_y.append(sa)
         yield np.array(batch_X), np.array(batch_y)
 
+# Generate a file list with corrected steering angle
 def generateFileList(Folder, offset):
     Filename = '/driving_log.csv'
     drivingLogFile = Folder + Filename
@@ -155,6 +156,7 @@ def generateFileList(Folder, offset):
     speed_all = data.speed.values
     X_all = []
     y_all = []
+    print('processing')
     for i in range(len(speed_all)):
         # Discarding image with speed less than 20
         if float(speed_all[i]) < 20: continue
@@ -163,20 +165,18 @@ def generateFileList(Folder, offset):
         angle = float(data.angle.values[i])
         X_all.append(imageFileName)
         y_all.append(angle)
-        print(imageFileName)
         # Load left image
         imageFileName = data.left.values[i].strip()
         angle = float(data.angle.values[i] + offset)
         X_all.append(imageFileName)
         y_all.append(angle)
-        print(imageFileName)
         # Load right image
         imageFileName = data.right.values[i].strip()
         angle = float(data.angle.values[i] - offset)
         X_all.append(imageFileName)
         y_all.append(angle)
-        print(imageFileName)
-
+        print('.',end='')
+    print('/n Processed!')
     data = {"fileNames": X_all, "label": y_all}
     with open(Folder + 'OFFSET=' +str(offset) + '.p', 'wb') as f:
         pickle.dump(data, f)
@@ -199,8 +199,7 @@ prev_nb_epoch = 0
 
 # Load the model
 
-model = get_nvidia_model(newRow, newCol, CHANNELS, load=load,
-                         filename='model.h5')
+model = get_nvidia_model(newRow, newCol, CHANNELS)
 
 
 model.compile(loss='mse',
