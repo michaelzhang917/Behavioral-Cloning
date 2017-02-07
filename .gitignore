@@ -1,9 +1,12 @@
+notebook
 data
 Data2017*
 __pycache__
 data2017*
 Default*
 models/vgg
+models/nvidia
+python
 preprocessedData
 Dominique*
 *.py~
