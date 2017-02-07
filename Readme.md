@@ -126,6 +126,10 @@ I then recorded the vehicle recovering from the left side and right sides of the
 
 I also collected the sample images from https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip
 
+After the collection process, I had 42103 number of data points. 
+
+I finally randomly shuffled the data set and put 20% of the data into a validation set. 
+
 To augment the data set, I also randomly adjust the brightness of the images, translate the images and its angle, add random shadow to the imagse and flip the images and angles and hope this would increase the robustness of the model. For example, here is the birghtness of an image that has then been adjusted :
 
 ![alt text][image6]
@@ -146,9 +150,11 @@ Here is the image that has been flipped
 ![alt text][image6]
 ![alt text][image10]
 
+I jittered the validation set by the above image augmentation procedure and then preprocessed it by resizing the images to 128x128.
+
+For each EPOCH, I use the file generator to generate the data with batch size = 128 and jittered the images by the above augmentation process and resized them to 128x128. 
+
 After the collection process, I had X number of data points. I then preprocessed this data by ...
 
+The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 20 as evidenced by that validation MSE is almost equal to training MSE and both are not sufficitly decreased anymore. I used an adam optimizer so that manually training the learning rate wasn't necessary.
 
-I finally randomly shuffled the data set and put Y% of the data into a validation set. 
-
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.
