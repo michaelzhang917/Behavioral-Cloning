@@ -5,7 +5,7 @@ __pycache__
 data2017*
 Default*
 models/vgg
-models/nvidia
+models
 python
 preprocessedData
 Dominique*
