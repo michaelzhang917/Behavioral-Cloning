@@ -135,7 +135,7 @@ To augment the data set, I also randomly adjust the brightness of the images, tr
 ![alt text][image6]
 ![alt text][image7]
 
-Here is the image that has been translated (for each pixel translated pixel, the steering angle is corrected by 0.004.
+Here is the image that has been translated (for each horizontal translation pixel, the steering angle is corrected by 0.004.
 
 ![alt text][image6]
 ![alt text][image8]
