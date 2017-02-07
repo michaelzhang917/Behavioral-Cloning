@@ -19,7 +19,7 @@
     <meta http-equiv="Content-Language" content="en">
     <meta name="viewport" content="width=device-width">
     
-    <title>CarND-Behavioral-Cloning-P3/README.md at master · udacity/CarND-Behavioral-Cloning-P3 · GitHub</title>
+    <title>CarND-Behavioral-Cloning-P3/writeup_template.md at master · udacity/CarND-Behavioral-Cloning-P3 · GitHub</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -42,7 +42,7 @@
     
     <meta name="pjax-timeout" content="1000">
     
-    <meta name="request-id" content="9EC4:11D02:5A1B9C9:903D918:58997BD2" data-pjax-transient>
+    <meta name="request-id" content="8F92:11D05:885487E:DA354C8:58997C57" data-pjax-transient>
     
 
     <meta name="msapplication-TileImage" content="/windows-tile.png">
@@ -53,7 +53,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="9EC4:11D02:5A1B9C9:903D918:58997BD2" name="octolytics-dimension-request_id" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="8F92:11D05:885487E:DA354C8:58997C57" name="octolytics-dimension-request_id" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -66,7 +66,7 @@
     <meta name="user-login" content="">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="MmIzZGZhZjYwNzU2Nzg0MmJiNzdjOTg3Y2QwZDYyNTc1NWNiOGU2MmVlYjZjMmJkMzRhYmE4MTJkYzE3YjZiNXx7InJlbW90ZV9hZGRyZXNzIjoiMjQuODUuMTkuMTc1IiwicmVxdWVzdF9pZCI6IjlFQzQ6MTFEMDI6NUExQjlDOTo5MDNEOTE4OjU4OTk3QkQyIiwidGltZXN0YW1wIjoxNDg2NDUzNzE5LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+      <meta name="js-proxy-site-detection-payload" content="NDY4NzE0OGIzMzMxODA2ZjNkZDY2ZGEwZWIzNGM2NGY3MDk0ZDhkMzJkZDhjMGE0MGQzZDliZTFiMDFlN2JmZHx7InJlbW90ZV9hZGRyZXNzIjoiMjQuODUuMTkuMTc1IiwicmVxdWVzdF9pZCI6IjhGOTI6MTFEMDU6ODg1NDg3RTpEQTM1NEM4OjU4OTk3QzU3IiwidGltZXN0YW1wIjoxNDg2NDUzODQ3LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
@@ -85,7 +85,7 @@
   <link href="https://github.com/udacity/CarND-Behavioral-Cloning-P3/commits/master.atom" rel="alternate" title="Recent Commits to CarND-Behavioral-Cloning-P3:master" type="application/atom+xml">
 
 
-      <link rel="canonical" href="https://github.com/udacity/CarND-Behavioral-Cloning-P3/blob/master/README.md" data-pjax-transient>
+      <link rel="canonical" href="https://github.com/udacity/CarND-Behavioral-Cloning-P3/blob/master/writeup_template.md" data-pjax-transient>
   </head>
 
 
@@ -123,7 +123,7 @@
 
       <div class="site-header-actions">
             <a class="btn btn-primary site-header-actions-btn" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
-          <a class="btn site-header-actions-btn mr-1" href="/login?return_to=%2Fudacity%2FCarND-Behavioral-Cloning-P3%2Fblob%2Fmaster%2FREADME.md" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+          <a class="btn site-header-actions-btn mr-1" href="/login?return_to=%2Fudacity%2FCarND-Behavioral-Cloning-P3%2Fblob%2Fmaster%2Fwriteup_template.md" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
       </div>
 
         <nav class="site-header-nav site-header-nav-secondary mr-md-3">
@@ -281,9 +281,9 @@
 
     
 
-<a href="/udacity/CarND-Behavioral-Cloning-P3/blob/a23677b8598a2f3b63014ac37652a5813db5f500/README.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/udacity/CarND-Behavioral-Cloning-P3/blob/a23677b8598a2f3b63014ac37652a5813db5f500/writeup_template.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:a76d8962bd98faf3381659062b2e49ba -->
+<!-- blob contrib key: blob_contributors:v21:f443525e253993dc6d9c257b5c79684f -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -325,7 +325,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/udacity/CarND-Behavioral-Cloning-P3/blob/master/README.md"
+               href="/udacity/CarND-Behavioral-Cloning-P3/blob/master/writeup_template.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -362,26 +362,22 @@
     <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
   </div>
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/udacity/CarND-Behavioral-Cloning-P3"><span>CarND-Behavioral-Cloning-P3</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/udacity/CarND-Behavioral-Cloning-P3"><span>CarND-Behavioral-Cloning-P3</span></a></span></span><span class="separator">/</span><strong class="final-path">writeup_template.md</strong>
   </div>
 </div>
 
 
   <div class="commit-tease">
       <span class="float-right">
-        <a class="commit-tease-sha" href="/udacity/CarND-Behavioral-Cloning-P3/commit/5e736ba35db1d1f5be56a81621f76805a901b77a" data-pjax>
-          5e736ba
+        <a class="commit-tease-sha" href="/udacity/CarND-Behavioral-Cloning-P3/commit/a23677b8598a2f3b63014ac37652a5813db5f500" data-pjax>
+          a23677b
         </a>
-        <relative-time datetime="2017-02-04T04:06:18Z">Feb 3, 2017</relative-time>
+        <relative-time datetime="2017-02-06T03:45:38Z">Feb 5, 2017</relative-time>
       </span>
       <div>
-        <img alt="@domluna" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/1907223?v=3&amp;s=40" width="20" />
-        <a href="/domluna" class="user-mention" rel="contributor">domluna</a>
-          <a href="/udacity/CarND-Behavioral-Cloning-P3/commit/5e736ba35db1d1f5be56a81621f76805a901b77a" class="message" data-pjax="true" title="Update README.md (#3)
-
-.h5 instead of .json">Update README.md (</a><a href="https://github.com/udacity/CarND-Behavioral-Cloning-P3/pull/3" class="issue-link js-issue-link" data-url="https://github.com/udacity/CarND-Behavioral-Cloning-P3/issues/3" data-id="205321243" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#3</a><a href="/udacity/CarND-Behavioral-Cloning-P3/commit/5e736ba35db1d1f5be56a81621f76805a901b77a" class="message" data-pjax="true" title="Update README.md (#3)
-
-.h5 instead of .json">)</a>
+        <img alt="@manavkataria" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/2206789?v=3&amp;s=40" width="20" />
+        <a href="/manavkataria" class="user-mention" rel="contributor">manavkataria</a>
+          <a href="/udacity/CarND-Behavioral-Cloning-P3/commit/a23677b8598a2f3b63014ac37652a5813db5f500" class="message" data-pjax="true" title="Update Project Title to Behavioral Cloning (#4)">Update Project Title to Behavioral Cloning (</a><a href="https://github.com/udacity/CarND-Behavioral-Cloning-P3/pull/4" class="issue-link js-issue-link" data-url="https://github.com/udacity/CarND-Behavioral-Cloning-P3/issues/4" data-id="205474483" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#4</a><a href="/udacity/CarND-Behavioral-Cloning-P3/commit/a23677b8598a2f3b63014ac37652a5813db5f500" class="message" data-pjax="true" title="Update Project Title to Behavioral Cloning (#4)">)</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -389,8 +385,8 @@
         <strong>2</strong>
          contributors
       </button>
-          <a class="avatar-link tooltipped tooltipped-s" aria-label="domluna" href="/udacity/CarND-Behavioral-Cloning-P3/commits/master/README.md?author=domluna"><img alt="@domluna" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/1907223?v=3&amp;s=40" width="20" /> </a>
-    <a class="avatar-link tooltipped tooltipped-s" aria-label="andrewpaster" href="/udacity/CarND-Behavioral-Cloning-P3/commits/master/README.md?author=andrewpaster"><img alt="@andrewpaster" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/4804880?v=3&amp;s=40" width="20" /> </a>
+          <a class="avatar-link tooltipped tooltipped-s" aria-label="manavkataria" href="/udacity/CarND-Behavioral-Cloning-P3/commits/master/writeup_template.md?author=manavkataria"><img alt="@manavkataria" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/2206789?v=3&amp;s=40" width="20" /> </a>
+    <a class="avatar-link tooltipped tooltipped-s" aria-label="andrewpaster" href="/udacity/CarND-Behavioral-Cloning-P3/commits/master/writeup_template.md?author=andrewpaster"><img alt="@andrewpaster" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/4804880?v=3&amp;s=40" width="20" /> </a>
 
 
     </div>
@@ -399,8 +395,8 @@
       <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
       <ul class="facebox-user-list" data-facebox-id="facebox-description">
           <li class="facebox-user-list-item">
-            <img alt="@domluna" height="24" src="https://avatars2.githubusercontent.com/u/1907223?v=3&amp;s=48" width="24" />
-            <a href="/domluna">domluna</a>
+            <img alt="@manavkataria" height="24" src="https://avatars2.githubusercontent.com/u/2206789?v=3&amp;s=48" width="24" />
+            <a href="/manavkataria">manavkataria</a>
           </li>
           <li class="facebox-user-list-item">
             <img alt="@andrewpaster" height="24" src="https://avatars0.githubusercontent.com/u/4804880?v=3&amp;s=48" width="24" />
@@ -416,9 +412,9 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a href="/udacity/CarND-Behavioral-Cloning-P3/raw/master/README.md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/udacity/CarND-Behavioral-Cloning-P3/blame/master/README.md" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
-      <a href="/udacity/CarND-Behavioral-Cloning-P3/commits/master/README.md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+      <a href="/udacity/CarND-Behavioral-Cloning-P3/raw/master/writeup_template.md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/udacity/CarND-Behavioral-Cloning-P3/blame/master/writeup_template.md" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/udacity/CarND-Behavioral-Cloning-P3/commits/master/writeup_template.md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
     </div>
 
 
@@ -433,132 +429,139 @@
   </div>
 
   <div class="file-info">
-      116 lines (79 sloc)
+      130 lines (76 sloc)
       <span class="file-info-divider"></span>
-    5.73 KB
+    5.74 KB
   </div>
 </div>
 
   
   <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-project-3-use-deep-learning-to-clone-driving-behavior" class="anchor" href="#project-3-use-deep-learning-to-clone-driving-behavior" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Project 3: Use Deep Learning to Clone Driving Behavior</h1>
+    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-behavioral-cloning" class="anchor" href="#behavioral-cloning" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><strong>Behavioral Cloning</strong></h1>
 
-<p><a href="http://www.udacity.com/drive"><img src="https://camo.githubusercontent.com/5b9aa393f43d7bb9cc6277140465f5625f2dae7c/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f756461636974792d7364632f6769746875622f736869656c642d6361726e642e737667" alt="Udacity - Self-Driving Car NanoDegree" data-canonical-src="https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg" style="max-width:100%;"></a></p>
+<h2><a id="user-content-writeup-template" class="anchor" href="#writeup-template" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Writeup Template</h2>
 
-<h2><a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overview</h2>
+<h3><a id="user-content-you-can-use-this-file-as-a-template-for-your-writeup-if-you-want-to-submit-it-as-a-markdown-file-but-feel-free-to-use-some-other-method-and-submit-a-pdf-if-you-prefer" class="anchor" href="#you-can-use-this-file-as-a-template-for-your-writeup-if-you-want-to-submit-it-as-a-markdown-file-but-feel-free-to-use-some-other-method-and-submit-a-pdf-if-you-prefer" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.</h3>
 
-<p>This repository contains starting files for P3, Behavioral Cloning.</p>
+<hr>
 
-<p>In this project, you will use what you've learned about deep neural networks and convolutional neural networks to clone driving behavior. You will train, validate and test a model using Keras. The model will output a steering angle to an autonomous vehicle.</p>
-
-<p>We have provided a simulator where you can steer a car around a track for data collection. You'll use image data and steering angles to train a neural network and then use this model to drive the car autonomously around the track.</p>
-
-<p>We also want you to create a detailed writeup of the project. Check out the <a href="https://github.com/udacity/CarND-Behavioral-Cloning-P3/blob/master/writeup_template.md">writeup template</a> for this project and use it as a starting point for creating your own writeup. The writeup can be either a markdown file or a pdf document.</p>
-
-<p>To meet specifications, the project will require submitting four files: </p>
-
-<ul>
-<li>model.py (script used to create and train the model)</li>
-<li>drive.py (script to drive the car - feel free to modify this file)</li>
-<li>model.h5 (a trained Keras model)</li>
-<li>a report writeup file (either markdown or pdf)</li>
-</ul>
-
-<p>Optionally, a video of your vehicle's performance can also be submitted with the project although this is optional. This README file describes how to output the video in the "Details About Files In This Directory" section.</p>
-
-<h2><a id="user-content-creating-a-great-writeup" class="anchor" href="#creating-a-great-writeup" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating a Great Writeup</h2>
-
-<p>A great writeup should include the <a href="https://review.udacity.com/#!/rubrics/432/view">rubric points</a> as well as your description of how you addressed each point.  You should include a detailed description of the code used (with line-number references and code snippets where necessary), and links to other supporting documents or external references.  You should include images in your writeup to demonstrate how your code works with examples.  </p>
-
-<p>All that said, please be concise!  We're not looking for you to write a book here, just a brief description of how you passed each rubric point, and references to the relevant code :). </p>
-
-<p>You're not required to use markdown for your writeup.  If you use another method please just submit a pdf of your writeup.</p>
-
-<h2><a id="user-content-the-project" class="anchor" href="#the-project" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The Project</h2>
+<p><strong>Behavrioal Cloning Project</strong></p>
 
 <p>The goals / steps of this project are the following:</p>
 
 <ul>
-<li>Use the simulator to collect data of good driving behavior </li>
-<li>Design, train and validate a model that predicts a steering angle from image data</li>
-<li>Use the model to drive the vehicle autonomously around the first track in the simulator. The vehicle should remain on the road for an entire loop around the track.</li>
+<li>Use the simulator to collect data of good driving behavior</li>
+<li>Build, a convolution neural network in Keras that predicts steering angles from images</li>
+<li>Train and validate the model with a training and validation set</li>
+<li>Test that the model successfully drives around track one without leaving the road</li>
 <li>Summarize the results with a written report</li>
 </ul>
 
-<h3><a id="user-content-dependencies" class="anchor" href="#dependencies" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dependencies</h3>
+<h2><a id="user-content-rubric-points" class="anchor" href="#rubric-points" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rubric Points</h2>
 
-<p>This lab requires:</p>
+<h3><a id="user-content-here-i-will-consider-the-rubric-points-individually-and-describe-how-i-addressed-each-point-in-my-implementation" class="anchor" href="#here-i-will-consider-the-rubric-points-individually-and-describe-how-i-addressed-each-point-in-my-implementation" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Here I will consider the <a href="https://review.udacity.com/#!/rubrics/432/view">rubric points</a> individually and describe how I addressed each point in my implementation.</h3>
+
+<hr>
+
+<h3><a id="user-content-files-submitted--code-quality" class="anchor" href="#files-submitted--code-quality" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Files Submitted &amp; Code Quality</h3>
+
+<h4><a id="user-content-1-submission-includes-all-required-files-and-can-be-used-to-run-the-simulator-in-autonomous-mode" class="anchor" href="#1-submission-includes-all-required-files-and-can-be-used-to-run-the-simulator-in-autonomous-mode" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Submission includes all required files and can be used to run the simulator in autonomous mode</h4>
+
+<p>My project includes the following files:</p>
 
 <ul>
-<li><a href="https://github.com/udacity/CarND-Term1-Starter-Kit">CarND Term1 Starter Kit</a></li>
+<li>model.py containing the script to create and train the model</li>
+<li>drive.py for driving the car in autonomous mode</li>
+<li>model.h5 containing a trained convolution neural network </li>
+<li>writeup_report.md or writeup_report.pdf summarizing the results</li>
 </ul>
 
-<p>The lab enviroment can be created with CarND Term1 Starter Kit. Click <a href="https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md">here</a> for the details.</p>
+<h4><a id="user-content-2-submssion-includes-functional-code" class="anchor" href="#2-submssion-includes-functional-code" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Submssion includes functional code</h4>
 
-<p>The following resources can be found in this github repository:</p>
-
-<ul>
-<li>drive.py</li>
-<li>video.py</li>
-<li>writeup_template.md</li>
-</ul>
-
-<p>The simulator can be downloaded from the classroom. In the classroom, we have also provided sample data that you can optionally use to help train your model.</p>
-
-<h2><a id="user-content-details-about-files-in-this-directory" class="anchor" href="#details-about-files-in-this-directory" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Details About Files In This Directory</h2>
-
-<h3><a id="user-content-drivepy" class="anchor" href="#drivepy" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>drive.py</code></h3>
-
-<p>Usage of <code>drive.py</code> requires you have saved the trained model as an h5 file, i.e. <code>model.h5</code>. See the <a href="https://keras.io/getting-started/faq/#how-can-i-save-a-keras-model">Keras documentation</a> for how to create this file using the following command:</p>
-
-<div class="highlight highlight-source-shell"><pre>model.save(filepath)</pre></div>
-
-<p>Once the model has been saved, it can be used with drive.py using this command:</p>
+<p>Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing </p>
 
 <div class="highlight highlight-source-shell"><pre>python drive.py model.h5</pre></div>
 
-<p>The above command will load the trained model and use the model to make predictions on individual images in real-time and send the predicted angle back to the server via a websocket connection.</p>
+<h4><a id="user-content-3-submssion-code-is-usable-and-readable" class="anchor" href="#3-submssion-code-is-usable-and-readable" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. Submssion code is usable and readable</h4>
 
-<h4><a id="user-content-saving-a-video-of-the-autonomous-agent" class="anchor" href="#saving-a-video-of-the-autonomous-agent" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Saving a video of the autonomous agent</h4>
+<p>The model.py file contains the code for training and saving the convolution neural network. The file shows the pipeline I used for training and validating the model, and it contains comments to explain how the code works.</p>
 
-<div class="highlight highlight-source-shell"><pre>python drive.py model.h5 run1</pre></div>
+<h3><a id="user-content-model-architecture-and-training-strategy" class="anchor" href="#model-architecture-and-training-strategy" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Model Architecture and Training Strategy</h3>
 
-<p>The fourth argument <code>run1</code> is the directory to save the images seen by the agent to. If the directory already exists it'll be overwritten.</p>
+<h4><a id="user-content-1-an-appropriate-model-arcthiecture-has-been-employed" class="anchor" href="#1-an-appropriate-model-arcthiecture-has-been-employed" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. An appropriate model arcthiecture has been employed</h4>
 
-<div class="highlight highlight-source-shell"><pre>ls run1
+<p>My model consists of a convolution neural network with 3x3 filter sizes and depths between 32 and 128 (model.py lines 18-24) </p>
 
-[2017-01-09 16:10:23 EST]  12KiB 2017_01_09_21_10_23_424.jpg
-[2017-01-09 16:10:23 EST]  12KiB 2017_01_09_21_10_23_451.jpg
-[2017-01-09 16:10:23 EST]  12KiB 2017_01_09_21_10_23_477.jpg
-[2017-01-09 16:10:23 EST]  12KiB 2017_01_09_21_10_23_528.jpg
-[2017-01-09 16:10:23 EST]  12KiB 2017_01_09_21_10_23_573.jpg
-[2017-01-09 16:10:23 EST]  12KiB 2017_01_09_21_10_23_618.jpg
-[2017-01-09 16:10:23 EST]  12KiB 2017_01_09_21_10_23_697.jpg
-[2017-01-09 16:10:23 EST]  12KiB 2017_01_09_21_10_23_723.jpg
-[2017-01-09 16:10:23 EST]  12KiB 2017_01_09_21_10_23_749.jpg
-[2017-01-09 16:10:23 EST]  12KiB 2017_01_09_21_10_23_817.jpg
-...</pre></div>
+<p>The model includes RELU layers to introduce nonlinearity (code line 20), and the data is normalized in the model using a Keras lambda layer (code line 18). </p>
 
-<p>The image file name is a timestamp when the image image was seen. This information is used by <code>video.py</code> to create a chronological video of the agent driving.</p>
+<h4><a id="user-content-2-attempts-to-reduce-overfitting-in-the-model" class="anchor" href="#2-attempts-to-reduce-overfitting-in-the-model" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Attempts to reduce overfitting in the model</h4>
 
-<h3><a id="user-content-videopy" class="anchor" href="#videopy" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>video.py</code></h3>
+<p>The model contains dropout layers in order to reduce overfitting (model.py lines 21). </p>
 
-<div class="highlight highlight-source-shell"><pre>python video.py run1</pre></div>
+<p>The model was trained and validated on different data sets to ensure that the model was not overfitting (code line 10-16). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.</p>
 
-<p>Create a video based on images found in the <code>run1</code> directory. The name of the video will be name of the directory following by <code>'.mp4'</code>, so, in this case the video will be <code>run1.mp4</code>.</p>
+<h4><a id="user-content-3-model-parameter-tuning" class="anchor" href="#3-model-parameter-tuning" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. Model parameter tuning</h4>
 
-<p>Optionally one can specify the FPS (frames per second) of the video:</p>
+<p>The model used an adam optimizer, so the learning rate was not tuned manually (model.py line 25).</p>
 
-<div class="highlight highlight-source-shell"><pre>python video.py run1 --fps 48</pre></div>
+<h4><a id="user-content-4-appropriate-training-data" class="anchor" href="#4-appropriate-training-data" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4. Appropriate training data</h4>
 
-<p>The video will run at 48 FPS. The default FPS is 60.</p>
+<p>Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road ... </p>
 
-<h4><a id="user-content-why-create-a-video" class="anchor" href="#why-create-a-video" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Why create a video</h4>
+<p>For details about how I created the training data, see the next section. </p>
 
-<ol>
-<li>It's been noted the simulator might perform differently based on the hardware. So if your model drives succesfully on your machine it might not on another machine (your reviewer). Saving a video is a solid backup in case this happens.</li>
-<li>You could slightly alter the code in <code>drive.py</code> and/or <code>video.py</code> to create a video of what your model sees after the image is processed (may be helpful for debugging).</li>
-</ol>
+<h3><a id="user-content-model-architecture-and-training-strategy-1" class="anchor" href="#model-architecture-and-training-strategy-1" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Model Architecture and Training Strategy</h3>
+
+<h4><a id="user-content-1-solution-design-approach" class="anchor" href="#1-solution-design-approach" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Solution Design Approach</h4>
+
+<p>The overall strategy for deriving a model architecture was to ...</p>
+
+<p>My first step was to use a convolution neural network model similar to the ... I thought this model might be appropriate because ...</p>
+
+<p>In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set. I found that my first model had a low mean squared error on the training set but a high mean squared error on the validation set. This implied that the model was overfitting. </p>
+
+<p>To combat the overfitting, I modified the model so that ...</p>
+
+<p>Then I ... </p>
+
+<p>The final step was to run the simulator to see how well the car was driving around track one. There were a few spots where the vehicle fell off the track... to improve the driving behavior in these cases, I ....</p>
+
+<p>At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.</p>
+
+<h4><a id="user-content-2-final-model-architecture" class="anchor" href="#2-final-model-architecture" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Final Model Architecture</h4>
+
+<p>The final model architecture (model.py lines 18-24) consisted of a convolution neural network with the following layers and layer sizes ...</p>
+
+<p>Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)</p>
+
+<p><a href="/udacity/CarND-Behavioral-Cloning-P3/blob/master/examples/placeholder.png" target="_blank"><img src="/udacity/CarND-Behavioral-Cloning-P3/raw/master/examples/placeholder.png" alt="alt text" title="Model Visualization" style="max-width:100%;"></a></p>
+
+<h4><a id="user-content-3-creation-of-the-training-set--training-process" class="anchor" href="#3-creation-of-the-training-set--training-process" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. Creation of the Training Set &amp; Training Process</h4>
+
+<p>To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:</p>
+
+<p><a href="/udacity/CarND-Behavioral-Cloning-P3/blob/master/examples/placeholder.png" target="_blank"><img src="/udacity/CarND-Behavioral-Cloning-P3/raw/master/examples/placeholder.png" alt="alt text" title="Grayscaling" style="max-width:100%;"></a></p>
+
+<p>I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :</p>
+
+<p><a href="/udacity/CarND-Behavioral-Cloning-P3/blob/master/examples/placeholder_small.png" target="_blank"><img src="/udacity/CarND-Behavioral-Cloning-P3/raw/master/examples/placeholder_small.png" alt="alt text" title="Recovery Image" style="max-width:100%;"></a>
+<a href="/udacity/CarND-Behavioral-Cloning-P3/blob/master/examples/placeholder_small.png" target="_blank"><img src="/udacity/CarND-Behavioral-Cloning-P3/raw/master/examples/placeholder_small.png" alt="alt text" title="Recovery Image" style="max-width:100%;"></a>
+<a href="/udacity/CarND-Behavioral-Cloning-P3/blob/master/examples/placeholder_small.png" target="_blank"><img src="/udacity/CarND-Behavioral-Cloning-P3/raw/master/examples/placeholder_small.png" alt="alt text" title="Recovery Image" style="max-width:100%;"></a></p>
+
+<p>Then I repeated this process on track two in order to get more data points.</p>
+
+<p>To augment the data sat, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:</p>
+
+<p><a href="/udacity/CarND-Behavioral-Cloning-P3/blob/master/examples/placeholder_small.png" target="_blank"><img src="/udacity/CarND-Behavioral-Cloning-P3/raw/master/examples/placeholder_small.png" alt="alt text" title="Normal Image" style="max-width:100%;"></a>
+<a href="/udacity/CarND-Behavioral-Cloning-P3/blob/master/examples/placeholder_small.png" target="_blank"><img src="/udacity/CarND-Behavioral-Cloning-P3/raw/master/examples/placeholder_small.png" alt="alt text" title="Flipped Image" style="max-width:100%;"></a></p>
+
+<p>Etc ....</p>
+
+<p>After the collection process, I had X number of data points. I then preprocessed this data by ...</p>
+
+<p>I finally randomly shuffled the data set and put Y% of the data into a validation set. </p>
+
+<p>I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.</p>
 </article>
   </div>
 
@@ -597,7 +600,7 @@
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2017 <span title="0.05736s from github-fe138-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2017 <span title="0.05485s from github-fe143-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
