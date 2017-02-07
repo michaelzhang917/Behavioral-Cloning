@@ -12,9 +12,12 @@ The goals / steps of this project are the following:
 [image2]: ./examples/recover1.jpg
 [image3]: ./examples/recover2.jpg
 [image4]: ./examples/recover3.jpg
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
+[image5]: ./examples/recover4.jpg "recover"
+[image6]: ./examples/normal.jpg
+[image7]: ./examples/brightness.jpg
+[image8]: ./examples/translate.jpg
+[image9]: ./examples/shadow.jpg
+[image10]: ./examples/flipped.jpg
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
@@ -119,15 +122,29 @@ I then recorded the vehicle recovering from the left side and right sides of the
 ![alt text][image2]
 ![alt text][image3]
 ![alt text][image4]
+![alt text][image5]
 
-Then I repeated this process on track two in order to get more data points.
+I also collected the sample images from https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip
 
-To augment the data set, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:
+To augment the data set, I also randomly adjust the brightness of the images, translate the images and its angle, add random shadow to the imagse and flip the images and angles and hope this would increase the robustness of the model. For example, here is the birghtness of an image that has then been adjusted :
 
 ![alt text][image6]
 ![alt text][image7]
 
-Etc ....
+Here is the image that has been translated (for each pixel translated pixel, the steering angle is corrected by 0.004.
+
+![alt text][image6]
+![alt text][image8]
+
+Here is the image that has been added random shadow
+
+![alt text][image6]
+![alt text][image9]
+
+Here is the image that has been flipped
+
+![alt text][image6]
+![alt text][image10]
 
 After the collection process, I had X number of data points. I then preprocessed this data by ...
 
